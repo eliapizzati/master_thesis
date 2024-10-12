@@ -1,0 +1,44 @@
+\documentclass[a4paper, 11pt]{article}
+	\usepackage[a4paper, left=2.5cm, bottom=2.5cm, top=2.5cm]{geometry}
+	%\usepackage[round]{natbib}
+\input{additional_tex/pack}        % pack.tex contains all the packages
+
+	\input{additional_tex/definitions} % definitions.tex contains general used user defined alias and definitions
+\input{additional_tex/additional_def} % math-heavy alias
+% for pdflink end errors with nesting levels
+%\hypersetup{draft}
+
+
+	\title{Outflows and extended \CII halos in high redshift galaxies}
+	\author{Elia Pizzati}
+	\date{\today}
+
+\begin{document}
+	\maketitle
+Thanks to radio-interferometers such as ALMA and NOEMA, we can now investigate the internal structure of galaxies deep into the Epoch of Reionization (EoR, redshift $z>6$).  One of the most powerful methods to understand the properties of galaxies in the EoR is the analysis of the \CII emission line. This line corresponds to the fine structure transition of ionized carbon $^2P_{3/2} \rightarrow ^2P_{1/2}$ at 157.74 $\mu$m.
+
+
+One recent study \cite{Fujimoto19} has combined 18 galaxies ($5.1 < z < 7.1$) observed by ALMA into a stacked $uv$-visibility plane image. The authors show that the radial profiles of the \CII surface brightness is significantly more extended than the HST stellar continuum. In absolute terms, they find a \CII halo extending out at least to 10 kpc (1 kpc = $3\times 10^{21}$ cm) from the stacked galaxy center. The presence of this extended \CII emitting component poses an interesting theoretical question since even the most modern, zoom-in simulations (\cite{pallottini:2019},\cite{Arata18}) are not able to reproduce the correct \CII surface brightness. 
+
+
+In this work, we explore a hypothesis that might explain the origin and properties of the observed extended \CII halos. We assume that carbon is brought to large galactocentric distances by outflows driven by powerful episodes of star formation occurring in the parent, high-$z$ galaxy. Our aim is to solve the hydrodynamical equations for the galactic wind and to derive physically motivated density, velocity and temperature radial profiles of the outflow as a function of model parameters. These quantities form the basis for the prediction of \CII luminosity profile.
+
+
+We start by considering the classical study by Chevalier\&Clegg (CC85, \cite{chevalier_clegg:1985}). This model describes a spherically symmetric, hot and steady wind that drives energy and mass, injected by stellar winds and supernovae, out from the center of the galaxy. Energy and mass are uniformly deposited by the central stellar cluster in an inner spherical region. Out of this region, mass, momentum and energy are conserved, and the wind expands adiabatically against the vacuum. By solving the equations for the physical variables, we find that this model can describe the formation of a halo, but it cannot be used for explaining the presence of \CIIion outside the galaxy, since the temperature remains far too high to account for the presence of \CIIion ions, the dominant ionization state at $T < 10^4$ K.
+
+This suggests to modify the model by including the effects of radiative losses. Following \cite{Thompson15} we rewrite the equations including terms for gravity and for radiative cooling.
+Using for the inner region the CC85 model, we integrate numerically the cooling wind equations (\cite{lamers1999}) into the outer one. To obtain the cooling function of the gas (from \cite{gnedin2012cooling}), we compute the photoionization rates for H and He as well as the Lyman-Werner band \HH photodestruction rate. We use the radiative flux emitted by the galaxy, setting a fixed value of the escape fraction in order to account for the radiation absorbed by \HI and by the dust.
+
+We find that for some values of the input parameters the gas cools very rapidly and its temperature stabilizes to a value between $10^3$ and $10^5$ K (depending on the parameter choice). We thus focus on these solutions and we obtain the density of ionized carbon balancing photoionization, collisional ionizations and recombinations. Finally, we can compute the \CII emission, and directly compare our predictions for the surface brightness with the observational data. 
+
+We find that the cooled wind model struggles to get a \CIIion density high enough to justify the observed emission. However, for some choices of the parameters we get encouraging results and we believe our model provides a reliable framework for more detailed work.   
+
+\clearpage
+
+
+\section*{Note} This document contains 3,646 characters (with spaces). The title, this note and the references are not included in the counting.
+	
+\bibliographystyle{unsrt}
+\bibliography{biblio} % if your bibtex file is called example.bib
+
+\end{document}

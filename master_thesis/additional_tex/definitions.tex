@@ -1,0 +1,85 @@
+
+%%%%% AUTHORS - PLACE YOUR OWN COMMANDS HERE %%%%%
+
+% Please keep new commands to a minimum, and use \newcommand not \def to avoid
+% overwriting existing commands. Example:
+%\newcommand{\pcm}{\,cm$^{-2}$}	% per cm-squared
+
+% quick alias
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\newcommand\code[1]{\textsc{\MakeLowercase{#1}}}
+\newcommand\quotesingle[1]{`{#1}'}
+\newcommand\quotes[1]{``{#1}"}
+\def\gsim{\lower.5ex\hbox{\gtsima}} 
+\def\lsim{\lower.5ex\hbox{\ltsima}} 
+\def\gtsima{$\; \buildrel > \over \sim \;$} 
+\def\ltsima{$\; \buildrel < \over \sim \;$} \def\gsim{\lower.5ex\hbox{\gtsima}} 
+\def\lsim{\lower.5ex\hbox{\ltsima}} 
+\def\simgt{\lower.5ex\hbox{\gtsima}} 
+\def\simlt{\lower.5ex\hbox{\ltsima}} 
+
+
+% solar stuff units
+\def\msun{{\rm M}_{\odot}}
+\def\lsun{{\rm L}_{\odot}}
+\def\dsun{{\cal D}_{\odot}}
+\def\fsun{\xi_{\odot}}
+\def\zsun{{\rm Z}_{\odot}}
+\def\msunyr{\msun/{\rm yr}}
+% units
+\def\mum{\mu {\rm m}}
+\newcommand{\angstrom}{\mbox{\normalfont\AA}}
+\def\cc{\rm cm^{-3}}
+\def\kms{\,\rm km\,s^{-1}}
+\def\kpc{\,\rm kpc}
+\def\uflux{{\rm erg}\,{\rm s}^{-1} {\rm cm}^{-2} }
+% quantities defs
+\def\fdust{\xi_{d}}
+\def\fesc{f_{\rm esc}}
+\def\td{\tau_{sd}}
+% additional wrappers for quantities and units
+\def\Dsolar{${\cal D}/\dsun$}
+\def\Zsolar{$Z/\zsun$}
+\def\DDsolar{\left( {{\cal D}\over \dsun} \right)}
+\def\ZZsolar{\left( {Z \over \zsun} \right)}
+
+% LINES
+\def\S*{$\Sigma_{\rm SFR}$}
+\def\Scii{$\Sigma_{\rm CII}$}
+\def\Sciimax{$\Sigma_{\rm CII}^{\rm max}$}
+\def\CII{\hbox{[C~$\scriptstyle\rm II $]~}}
+\def\CIII{\hbox{C~$\scriptstyle\rm III $]~}}
+\def\OIII{\hbox{[O~$\scriptstyle\rm III $]~}}
+
+%\def\CII{[CII]~} 
+%\def\CIII{CIII]~}
+% IONS
+\def\HH{\hbox{H$_2$}~} 
+\def\H{\hbox{H}} 
+\def\He{\hbox{He}} 
+\def\HI{\hbox{H~$\scriptstyle\rm I\ $}} 
+\def\HII{\hbox{H~$\scriptstyle\rm II\ $}} 
+\def\HeI{\hbox{He~$\scriptstyle\rm I\ $}} 
+\def\CIion{\hbox{C~$\scriptstyle\rm I $~}}
+\def\CIIion{\hbox{C~$\scriptstyle\rm II $~}}
+\def\CIIIion{\hbox{C~$\scriptstyle\rm III $~}}
+\def\CIVion{\hbox{C~$\scriptstyle\rm IV $~}}
+\def\CVIion{\hbox{C~$\scriptstyle\rm VI $~}}
+\def\OIIIion{\hbox{O~$\scriptstyle\rm III $~}}
+\def\NIIion{\hbox{N~$\scriptstyle\rm II $~}}
+
+% ion variables
+\def\nhh{n_{\rm H2}}
+\def\nhi{n_{\rm HI}}
+\def\nhii{n_{\rm HII}}
+\def\fhh{x_{\rm H2}}
+\def\fhi{x_{\rm HI}}
+\def\fhii{x_{\rm HII}}
+% MIX
+\def\fd{f^*_{\rm diss}} 
+\def\ks{\kappa_{\rm s}}
+
+% COLORS
+\def\cyan{\color{cyan}}
+%\definecolor{epcolor}{HTML}{b3003b}

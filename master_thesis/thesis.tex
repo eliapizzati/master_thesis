@@ -1,0 +1,63 @@
+%!TeX encoding = utf8
+%!TeX spellcheck = it_IT
+
+\documentclass[a4paper, 12pt, openany, oneside]{book}
+
+
+\input{additional_tex/pack}        % pack.tex contains all the packages
+\input{additional_tex/definitions} % definitions.tex contains general used user defined alias and definitions
+\input{additional_tex/additional_def} % math-heavy alias
+
+\begin{document}
+
+
+\input{files/frontespizio}
+
+%\emptypage
+
+\input{files/indice}
+
+
+
+\chapter*{Extended Abstract}
+
+\input{files/abstract}
+
+\chapter{Introduction to galaxy formation} \label{chap:intro}
+\vspace{20pt}
+\input{files/introduction}
+
+\chapter{Galactic outflow physics} \label{chap:outflows}
+\vspace{20pt}
+\input{files/outflows}
+
+\chapter{The puzzling nature of [CII] halos} \label{chap:halos}
+\vspace{20pt}
+\input{files/observations}
+
+
+\chapter{Modeling [CII] halos formation} \label{chap:model}
+\vspace{20pt}
+\input{files/model}
+
+\chapter{Results and comparison with observations} \label{chap:results}
+\vspace{20pt}
+\input{files/results}
+
+\chapter{Conclusions and future outlook}
+\vspace{20pt}
+\label{chap:conclusion}
+
+\input{files/conclusions}
+
+\chapter{Acknowledgements}
+\vspace{20pt}
+\label{chap:acknowledgements}
+
+\input{files/acknowledgements}
+
+
+\bibliography{biblio}
+
+
+\end{document}

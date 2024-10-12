@@ -1,0 +1,105 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+
+\title{Research Project}
+\author{Elia Pizzati}
+\date{\vspace{-8pt}}
+
+
+\usepackage[a4paper,top=2.3cm,bottom=2.3cm,left=2.8cm,right=2.8cm]{geometry}% heightrounded,bindingoffset=5mm
+
+
+\usepackage{hyperref}
+
+%\usepackage{hyperref}
+
+\usepackage[round]{natbib}
+\bibliographystyle{plainnat}
+
+%\pagenumbering{gobble}
+
+\begin{document}
+
+\maketitle
+
+
+%  OUTLINE (MAX 20.000 char ie 5 pages ca)
+
+% - Intro of ISM and IGM in high redshift galaxies
+%
+% - Observations of outflows and other stuff in the IGM
+%
+% - Importance of feedback
+%
+% - Models for outflows mechanisms
+%
+% - Brief description of our paper 
+%
+% - Brief description of the thesis 
+%
+% - Possible project 1 : numerical simulation of outflows and halo formation
+% - Refinement of the model, comparison with new observations, investigating other possible observables (??) and other 
+%
+% - Possible project 2 : investigating the relationship between SN feedback and AGN feedback
+% - SMBHs seeding and growth models
+% - comparison with LISA, Athena and LynX
+%
+% - Possible project 3 : 
+
+
+Investigating the complex environment of galaxies during the Epoch of Reionization (EoR, redshift $z>6$) is currently one of the most outstanding research ambitions of modern astrophysics \citep{Dayal:2018hft, Barkana:2000fd}. As witnessed by zoom-in cosmological simulations \citep{Murali_2002,somerville2015,Vogelsberger:2019ynw}, galaxies are still forming in the Epoch of Reionization, and they present different properties with respect to the ones seen in low redshift systems. Unraveling how galaxies formed and evolved during these distant epochs (i.e. a few hundred million years after the Big Bang) is at the heart of our understanding of cosmic evolution.
+
+Due to the non-linearity and large variety of physical phenomena occurring on a vast range of scales, it is very challenging to model these formation and evolution processes. It is well established that galaxies originated from the growth of instabilities created by primordial matter fluctuations \citep{bertschinger98}. However, this framework is not sufficient to frame observations within a reliable theoretical model. Internal processes such as star formation, Active Galactic Nuclei (AGN) activity \citep{Kormendy:2013dxa, morganti2017archaeology}, feedback mechanisms \citep{fabian12}, as well as large-scale effects such as cosmic reionization \citep{mesinger_2016} and metal enrichment of the intergalactic medium (IGM) \citep{Aguirre:2001ay} need to be accounted for in order to build up a solid theoretical background that is able to keep pace with observational data.
+
+In the last few years, astounding progress has been made in detecting galaxies that formed only a few hundreds of million years after the Big Bang. This has fueled a strong and widespread interest in detailed theoretical studies of early structures.
+In fact, the internal structure of high-redshift galaxies is now being routinely explored by radio-interferometers at Far-Infrared (FIR) and Radio wavelengths \citep{capak2015, decarli2016alma, Fevre:2019thf}, as well as by large-scale surveys in the Near-Infrared (NIR) and optical bands \citep{Madau:1996yh,refId0}. 
+
+In particular, the Hubble Space Telescope (HST) and the Very Large Telescopes (VLT) have revealed the size and the morphological properties of high-redshift galaxies by looking at the rest-frame ultraviolet (UV) wavelengths, which are redshifted to the NIR \citep{oesch2009structure,Shibuya:2015qfa, bouwens2017z, kawamata2018size}. These studies have successfully characterized the evolution of the rest-frame galaxy UV luminosity functions (LFs), star formation, stellar buildup history, and size growth. For the very first time, we have now a solid statistical characterization of galactic systems up to $z\approx 10$. 
+
+At the same time, the advent of the Atacama Large Millimeter/submillimeter Array (ALMA) and the NOrthern Extended Millimeter Array (NOEMA) have opened a new window on the universe, exploring the obscured star formation and ISM lines emission in the rest-frame FIR wavelengths up to $z\approx7$ \citep{maiolino2015,pentericci2016,knudsen2016b, matthee2017, Hashimoto2018}. Combining the information coming from the dust continuum emission, as well as from some relevant FIR emission lines such as [CII] $158 \,\mu\mathrm{m}$, [O III] $88 \,\mu\mathrm{m}$, and CO from various rotational levels, we are now able to explore the internal structure of high redshift galaxies with a remarkable level of spatial resolution \citep{capak2015, inoue2016, carniani2017, Laporte17, carniani2018, behrens2018, Tamura:2019}. 
+
+The data coming from this plethora of observations can be compared to state of the art, zoom-in cosmological simulations \citep{pallottini2017,pallottini2017b, Hopkins18, pallottini:2019}. In doing so, on one hand, we can benchmark the results of simulations and assess the physical assumptions on which they are based, and on the other, we can search in observational data for the features expected from theoretical considerations. One of the most important predictions made by cosmological simulations is known as the \textit{baryon cycle} \citep{peroux2020cosmic}. This process describes the history of baryons in the galactic environment, taking account of the complex interplay between star formation, stellar feedback, and accretion from the circumgalactic medium (CGM). Baryons are brought to great galactocentric distances ($1-10\,\mathrm{kpc}$ scales) by feedback mechanisms, but at the same time, they are also accreted to the inner region of the galaxy due to the gravitational influence of the dark matter (DM) halo. Simulations clearly reveal how this process is responsible for driving galaxy growth and evolution \citep{tumlison}. Understanding the physics behind the competing processes of outflowing and inflowing of gas is therefore one of the key steps to improve our understanding of cosmic evolution \citep{2005ARA&A..43..769V}.
+
+Signs of galactic outflows were first found at low redshift a few decades ago \citep{chevalier_clegg:1985, Walter:2002vq}, but only very recently there has been strong evidence of the presence of outflows in high redshift galaxies. Outflows were seen in massive quasar-hosting galaxies \citep{cicone2015}, as well as in normal star-forming ones \citep{gallerani:2018,Fujimoto19, ginolfi:2019, Sugahara19,Fujimoto:2020qzo, herrera2021kiloparsec}. These observations suggest a ubiquitous presence of outflows, thus supporting the claim that outflows steer galaxy evolution from the EoR to the present day \citep{veilleux2020cool}. 
+
+However, despite the great improvements made both from a theoretical and from an observational perspective, we are still lacking a deep and thorough description of the outflows driving mechanisms, and of their morphological, thermal, and chemical structure \citep{heckman2017galactic}. Both observations and detailed simulations point to the fact that outflows present a complex multi-phase structure composed of different modes \citep{murray2011, hopkins2014, muratov2015}. Hot modes ($T \approx 10^{6–7} \,\mathrm{K}$) are often fast and highly ionized, while cold modes ($T \approx 10^{2-4} \,\mathrm{K}$) are neutral and slower. These phases often coexist together in the outflow, splitting between themselves the energy and mass budget of the outflowing gas. Moreover, hot gas can turn into a cold mode by emitting radiation and thus cooling down to a lower temperature (a process known as \textit{radiative cooling}). This process can start when the threshold for H, He, and metal lines cooling is reached, and it rapidly lowers the temperature of the gas by several orders of magnitude. Different works highlight the role of this \textit{catastrophic cooling} in regulating feedback mechanisms in super-star clusters \citep{Silich:2004,gray2019catastrophic}, and galaxies \citep{Wang:1995, sarkar:2015, Thompson16, Schneider:2018, Gronke&Oh:2020}. 
+
+Another important piece of the puzzle comes from recent observations of the circumgalactic medium (CGM) of $z\approx5-7$ galaxies. Several studies hint at the presence of cold, neutral gas surrounding these primeval galaxies. The gas seems to extend out to a distance that is significantly greater than the size of the galaxy itself, creating an \textit{extended halo} that dominates the properties of the galaxy's CGM. These halos were observed measuring the [CII] line emission \citep{Fujimoto19, Fujimoto:2020qzo, ginolfi:2019, herrera2021kiloparsec, cicone2015}, as well as using the Ly$\alpha$ line \citep{Wisotzki16, Wisotzki18, Kakuma19}. In both cases, the observed line emission was at least $\sim 5$ times spatially more extended than the UV/FIR stellar continuum. These independent evidences for extended halos pose their existence on very solid grounds.
+
+The discovery of these halos around early galaxies poses a series of challenging theoretical questions, involving their formation mechanisms, their evolution, and their impact on the enshrouded galaxies as well as on the external regions where the intergalactic medium (IGM) reside. These challenges become even more severe as we note that the most physically rich, zoom-in simulations \citep{pallottini2017b, Arata:2019} fail to reproduce a surface brightness that is compatible with the presence of an extended halo. 
+
+In a project started with prof. Ferrara and the Cosmology group at SNS as part of my Bachelor's thesis, we tried to take on the problem of finding a plausible mechanism to explain the formation of these halos. In particular, we aimed to connect all the pieces of evidence here presented, focusing on the hypothesis that these halos result from the remnants of past - or ongoing - outflow activity. We explored this idea by using a semi-analytical model for an outflow that undergoes \textit{catastrophic cooling} in the inner region of the halo. Computing the abundance of singly ionized Carbon and simulating the resulting [CII] emission, we were able to compare it directly with observational evidence coming from recent ALMA data \citep{Fujimoto19}, and to conclude that outflows represent a promising answer to explain the origin of the observed [CII] halos. This work resulted in a paper published in MNRAS \citep{Pizzati20}. Currently, I am working as part of my Master's thesis on the same topic. We plan to improve our model for CII halos formation, including some relevant physical features such as the CMB suppression \citep{dacunha2013, pallottini2017b, kohandel:2019} and non-equilibrium cooling \citep{gray2019catastrophic}, and comparing it with the new data from the ALPINE survey \citep[ALMA LP,][]{lefevre:2019, faisst:2019, bethermin:2019, Fujimoto:2020qzo} and from new cosmological zoom-in simulations \citep[e.g. SERRA,][]{pallottini:2019}. More details on this project can be found in the ``Extended Thesis Abstract" document.
+
+In my Ph.D. at the Scuola Normale Superiore, I would like to continue my work under the supervision of prof. Andrea Ferrara and in collaboration with the SNS Cosmology Group. Given my background and expertise, the natural development of my Ph.D. project would focus on an in-depth analysis of the role of outflows and galactic feedback in governing the formation of extended halos and in reshaping the properties of the nearby CGM/IGM. With the academic and scientific opportunities granted by a Ph.D. project at SNS, I would have the possibility to convert our semi-analytical, one-dimensional model into a full 3-d hydrodynamical simulation. This kind of numerical approach to model outflows, being able to take account of the many different physical processes involved, has recently been successfully developed in several different studies \citep{Scannapieco:2017, schneider2018introducing,schneider2018production, de2020simulated,schneider2020physical}. Moreover, numerical prescriptions on feedback mechanisms from galaxies are routinely used in the most advanced cosmological simulations \citep{Sijacki:2007rw, Hopkins18}. 
+
+However, so far there was no attempt to use these numerical approaches to gain insight into the formation and evolution of extended halos. If we were able to succeed in this task, we would have the opportunity to study in much more detail the processes involved in the outflow launch, development, and interaction with the surrounding environment. For example, a realistic treatment of the outflow-CGM interaction would allow us to model more faithfully the outflow profile and the consequent [CII] emitting region. Indeed, simulations show that accounting for an external CGM pressure in a time-dependent fashion
+might result in the formation of shocks in the outflowing gas \citep{samui:2008,gray2019catastrophic, Lochaas:2020}; these shocks are not captured by our simplified model, and their effect on our final conclusions will need to be carefully assessed.
+
+Another interesting point to make here involves the physics of cosmic reionization \citep{mesinger_2016}. One of the most important parameters that need to be gauged in order to determine the history and topology of reionization is the \textit{escape fraction} $f_{esc}$ of ionizing (LyC) photons. Unfortunately, the value of $f_{esc}$, and its dependence on galaxy properties and on redshift, remains very poorly constrained by observational data \citep{inoue2006escape, Dayal:2018hft}. Some of the few estimates available so far \citep[e.g.,][]{Paardekooper:2015via} point to a very low value of this escape fraction coefficient, hinting at a very dense, clumped, and turbulent ISM structure. Interestingly, our model \citep{Pizzati20} is able to correctly match the measured [CII] profile \citep{Fujimoto19} only if we assume that the contribution of ionizing radiation coming from the galaxy to the radiation field illuminating the outflowing gas is negligible. This raises the captivating possibility that outflows might be used to indirectly
+probe $f_{esc}$. With more careful treatment of the outflow 3-d structure and of its dependence on the ionizing radiation field, we could study this hypothesis in more detail, with the aim of determining the contribution of normal high redshift galaxies to the reionization of the neutral universe. 
+
+
+A different line of work I could decide to undertake with prof. Ferrara also develops from an interesting conclusion we made in \citet{Pizzati20}. In determining the fiducial values for the free parameters of our model, we have found a value for the mass and energy inputs on the outflowing gas which is only marginally consistent with our hypothesis that these inputs come only from Supernovae (SN) ejecta \citep{Heckman15}. In fact, a compelling possibility is that these outflows are also driven by Active Galactic Nuclei (AGN) activity \citep{Fiore_2017}; according to this hypothesis, the input of mass and energy is greater because of the AGN contribution. 
+
+The role of AGN in driving feedback in their host galaxies has been widely recognized from a theoretical standpoint in the last twenty years \citep{Harrison:2018jvh}. However, an observational corroboration of this claim is possible only for the most powerful and luminous quasars \citep{cicone2015}. The role of faint quasars in this complex picture still needs to be assessed \citep{shin2020infrared}, and the formation and evolution mechanisms of Super Massive Black Holes (SMBHs) - which are thought to be the source of quasars \citep{netzer2015revisiting} - are still subjected to very little constraint \citep{cattaneo2009role}. Thankfully, this is destined to change in the near future: optical and Near Infrared (NIR) observations by the JWST will probe the emission of the very first BHs forming in the universe \citep{Latif:2016qau, Pacucci:2017mcu}, as well as the radiation from faint quasars. X-ray observatories, such as Athena \citep{2017AN....338..153B} and LynX, will explore for the very first time the faint end of the quasars X-Ray Luminosity Function (LF) \citep{degraf2010faint}. Finally, the LISA mission \citep{Barausse:2020rsu} will open up an entirely new window on the universe, measuring gravitational waves emitted by two merging SMBHs at cosmological distances. All of these upcoming observations will allow a more detailed analysis of the interplay between host galaxies and their central SMBHs \citep{volonteri2012black, Bromm:2002hb, Haiman:2012ic}: this is extremely important, since there is wide-spread theoretical and observational evidence suggesting a deep connection between the growth of a SMBH at the center of a galaxy and the history of the galaxy itself \citep{Ferrarese:2000se, 2000ApJ...539L..13G, kormendy}.
+
+
+Therefore, in my Ph.D. project, I could also work with prof. Ferrara on models for SMBHs seeding and growth: these models are currently based on either semi-analytical \citep{Pacucci:2020orw,piana2021mass} or numerical \citep{habouzit2020supermassive,zhu2020formation, degraf2020morphological} approaches to characterize the gas accretion and the galaxy mergers. A detailed analysis of these physical processes, however, cannot neglect the presence of feedback mechanisms in the form of powerful outflows powered by the central AGN \citep{Fiore_2017, costa2020powering}. For this reason, developing dedicated
+hydrodynamical simulations that include radiative transfer \citep{Sijacki:2007rw, Hopkins18, Beckmann:2017luq}, would allow us to include AGN contribution in our starburst-driven outflow model, as well as to study AGN impact on the surrounding CGM/IGM of the host galaxies in terms of halo extension, and thermodynamics and metallicity distributions.
+
+
+
+
+
+
+
+
+
+\section*{Note}
+
+This document contains 16,887 characters (with spaces). The title, this note and the references are not included in the counting.
+
+
+\bibliography{biblio}
+
+\end{document}

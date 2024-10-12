@@ -1,0 +1,85 @@
+
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage{listings}
+
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry, emptypage}
+\usepackage{graphicx, subfig}
+\usepackage{enumitem, lipsum}
+%\usepackage{marginnote, xspace}
+\usepackage{comment}
+
+%\usepackage[autostyle,italian=guillemets]{csquotes}
+
+\usepackage[boxed]{algorithm2e}
+\usepackage[eulerchapternumbers, palatino=false, parts=false]{classicthesis}
+\usepackage{arsclassica}
+
+\usepackage{setspace}
+ \setstretch{1.1}
+
+
+\usepackage{hyperref}
+
+
+\usepackage[square,numbers]{natbib}
+\bibliographystyle{unsrtnat}
+
+\usepackage{xcolor}
+
+\usepackage{afterpage}
+\newcommand\emptypage{
+    \null
+    \thispagestyle{empty}
+    \addtocounter{page}{-1}
+    \newpage
+    }
+    
+\usepackage{multicol}
+
+
+
+% Font
+\usepackage[proportional, oldstyle, scale=1.03]{cochineal}
+\usepackage[english]{babel}
+\usepackage[varqu,varl,var0]{inconsolata}
+\usepackage[scale=.95,type1]{cabin}
+\usepackage[cochineal,vvarbb]{newtxmath}
+%\usepackage[cal=boondoxo]{mathalfa}
+
+
+
+% Figures
+\graphicspath{{plots/}}
+\captionsetup{format=hang}
+
+% Layout
+\geometry{%showframe,
+	width=35pc, height=57pc, vmarginratio=1200:1000}
+\setlength{\parindent}{0.7em}
+%\setlength{\parskip}{0.em}
+
+\newcommand\setupheading[1]{%
+	\cleardoublepage\phantomsection
+	\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}%
+}
+
+
+% Headings
+\renewcommand{\sectionmark}[1]{
+	\markright{\thesection\enspace\textit{#1}}
+} 
+\clearplainofpairofpagestyles
+
+
+% Other
+\hypersetup{%hidelinks,
+	linkcolor=RoyalBlue}
+\microtypesetup{kerning=true}
+%\let\marginpar\marginnote
+\let\bm\boldsymbol
+\setlist{itemsep=0pt}
+
+

@@ -1,0 +1,7 @@
+Recent ALMA observations have revealed that normal, star-forming galaxies at z = 4-6 are surrounded by extended (10-15 kpc) [CII]-emitting halos. This discovery raises a number of thorny theoretical questions involving halos' formation and survival, as we note that even the most advanced, zoom-in simulations fail to reproduce the observed [CII] surface brightness.
+
+In this work, we present a model in which these halos are the result of supernovae-driven cooling outflows. We consider three main parameters on which our model depends: the mass loading factor, the parent galaxy's star formation rate, and the dark matter halo's circular velocity.
+
+We compare the predictions of our model with the results from the ALMA ALPINE sample, running an MCMC to study the posterior distribution of our parameters. The results of this comparison suggest that mass loading factors for high-z, normal star-forming galaxies lie in the range 3−10, with higher values for lower-mass and lower-SFR systems.
+
+We conclude that (a) extended halos can be produced by outflows that undergoes catastrophic radiative cooling within the central kpc; (b) the large mass loading factor values are marginally consistent with starburst-driven outflows, but it might indicate additional energy input from active galactic nuclei; (c) the presence of [C II] haloes requires an ionizing photon escape fraction from galaxies much lower than unity.
